@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности | TikTok Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(145deg, #f6f9fc 0%, #e9f1f8 100%);
+            color: #1e293b;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 40px;
+            box-shadow: 0 20px 40px -10px rgba(0,20,50,0.12), 0 1px 3px rgba(0,0,0,0.02);
+            padding: 3rem 2.5rem;
+            border: 1px solid rgba(255,255,255,0.6);
+        }
+        /* TikTok-like accent */
+        .badge {
+            display: inline-block;
+            background: #000;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.35rem 1rem;
+            border-radius: 100px;
+            letter-spacing: 0.3px;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            color: #0a0c10;
+            border-left: 6px solid #ff0050;
+            padding-left: 1.4rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2.2rem;
+            margin-bottom: 1rem;
+            color: #0f172a;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            color: #334155;
+            font-size: 1.05rem;
+        }
+        ul {
+            margin: 1.2rem 0 1.8rem 1.8rem;
+            list-style: none;
+        }
+        li {
+            margin-bottom: 0.7rem;
+            padding-left: 1.8rem;
+            position: relative;
+            color: #2c3e50;
+        }
+        li::before {
+            content: "•";
+            color: #ff0050;
+            font-weight: 700;
+            font-size: 1.4rem;
+            position: absolute;
+            left: 0;
+            top: -6px;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, #ccc, #ff0050, #ccc);
+            opacity: 0.25;
+            margin: 2.5rem 0 1.5rem;
+        }
+        .footer-note {
+            margin-top: 2.8rem;
+            font-size: 0.95rem;
+            color: #5f6c80;
+            text-align: center;
+            border-top: 1px solid rgba(0,0,0,0.06);
+            padding-top: 2rem;
+            font-weight: 400;
+        }
+        a {
+            color: #ff0050;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: 0.15s;
+        }
+        a:hover {
+            border-bottom-color: #ff0050;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1.5rem; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">🔐 ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</span>
+        <h1>Privacy Policy</h1>
+        <p style="font-size: 1.1rem; font-weight: 450;">Дата вступления в силу: 12 февраля 2026 г.</p>
+        <p>Этот документ описывает, какие данные собирает и обрабатывает приложение/сервис <strong>«Tiktok Poster»</strong> (далее — «Разработчик») в связи с использованием TikTok API и взаимодействием с платформой.</p>
+        
+        <h2>📦 1. Какие данные мы собираем</h2>
+        <p>При использовании наших инструментов через TikTok API мы можем запрашивать и обрабатывать следующие категории информации:</p>
+        <ul>
+            <li><strong>Публичная информация профиля:</strong> никнейм, аватар, ID пользователя.</li>
+            <li><strong>Токены доступа:</strong> временные ключи для работы API — хранятся в зашифрованном виде и никогда не передаются третьим лицам.</li>
+        </ul>
+        <p>Мы <strong>не собираем</strong> пароли, платежные данные, личные сообщения или конфиденциальную информацию без прямого разрешения.</p>
+        
+        <h2>⚙️ 2. Как мы используем ваши данные</h2>
+        <ul>
+            <li>Для предоставления функциональности (аналитика, публикация, модерация).</li>
+            <li>Для улучшения стабильности и безопасности приложения.</li>
+            <li>Для соблюдения требований TikTok Platform и законодательства.</li>
+            <li>Мы НЕ продаём ваши данные третьим лицам.</li>
+        </ul>
+        
+        <h2>🔄 3. Хранение и защита</h2>
+        <p>Данные хранятся на защищенных серверах в ЕС/США с использованием современных методов шифрования (AES-256, TLS 1.3). Срок хранения — не более 30 дней, если иное не требуется для работы сервиса.</p>
+        
+        <h2>🌐 4. Передача данных третьим лицам</h2>
+        <p>Мы можем передавать обезличенную аналитику сервисам Google Analytics и Firebase исключительно для улучшения производительности. Юридически обязательные запросы со стороны государственных органов — только в порядке, установленном законом.</p>
+        
+        <h2>🎯 5. Ваши права (GDPR / CCPA)</h2>
+        <p>Вы имеете право запросить полную выгрузку ваших данных, потребовать их удаления или отозвать согласие на обработку. Для этого напишите на <a href="mailto:privacy@tikdev.example">privacy@tikdev.example</a>.</p>
+    </div>
+</body>
+</html>
